@@ -1,2 +1,2 @@
 # ZoutjesShop
-Dit is de webwinkel voor het bedrijf zoutjes in Purmerend.
+Dit is de Repository voor het bedrijf zoutjes in Purmerend.
