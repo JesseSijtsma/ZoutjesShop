@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cpanel/
+Disallow: /includes/
+
+Sitemap: http://24583.hosts1.ma-cloud.nl/bewijzenmap/EindExamenFrontEnd/sitemap.xml
