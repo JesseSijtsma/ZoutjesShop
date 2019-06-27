@@ -1,0 +1,5 @@
+TestProces 25-06-2019 
+Aanwezig: klant en programmer 
+wat getest: final product en layout + klant vriendelijkheid
+De klant is tevreden met de layout van de paginá's en vind het een simpel maar mooi ontwerp, de klant vriendelijkheid is oop een 8/10 zegt de klant.
+Verbeter punten zijn alleen nog de responsive functies van sommige pagina's en de header menu 

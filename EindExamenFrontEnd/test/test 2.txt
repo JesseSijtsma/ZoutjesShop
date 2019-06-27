@@ -1,0 +1,7 @@
+TestProces 10-06-2019
+Aanwezig: klant en programmer
+Wat getest: Kleur, Product pagina en contact pagina
+
+De klant is tevreden met de layout en de contact pagina. 
+In de footer willen ze een copyright, Bezoring (wie bezorgd het) en Social Media icon's (Werken niet)
+Responsive moet nog beter niet visueel plesant
