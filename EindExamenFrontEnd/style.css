@@ -8,7 +8,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #ccc34c;
+    background-color: #f1f1f1;
     background-size: cover;
     margin: 0;
     overflow-x: hidden;
@@ -18,6 +18,7 @@ body {
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #d3c828;
 }
 
 .topnav {
@@ -76,24 +77,28 @@ body {
   height: 60vh;
   padding: 10px;
   margin-top: 10px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2; 
+  column-count: 2;
 }
 
 .txt1 {
-  margin-right: 50px;
+  margin-left: 50px;
   margin-top: 50px;
-  width: 800px;
+  max-width: 800px;
   display: inline-block;
-  float: right;
 }
 
 .txt1 p {
   font-size: 2vw;
 }
 
-.img1 {
-  margin-top: 125px;
-  float: left;
-  margin-left: 10vw;
+.img1 img{
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin-right: 300px;
+  margin-top: 150px;
 }
 
 .aboutproducts {
@@ -104,65 +109,38 @@ body {
 }
 
 .txt2 {
-  margin-left: 50px;
+  margin-right: 200px;
   margin-top: 50px;
   width: 800px;
   display: inline-block;
+  float: right;
 }
 
 .txt2 p {
   font-size: 2vw;
 }
 
-.img2 {
-  margin-top: 125px;
-  float: right;
-  margin-right: 10vw;
+.img2 img{
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-left: 50px;
+  margin-top: 100px;
 }
+
+@media screen and (max-width: 600px) {
+  .img1 }{
+    width: 50%;
+  }
+
+
 
 /*---------------------Contact----------------------*/
-
-.parent {
-  position: relative;
-  margin: auto;
-  width: auto;
-}
-
-.child1 {
-  height:auto;
-  max-width: 800px;
-  overflow:hidden;
-  padding: 50px;
-  margin-left: 125px;
-  float: left;
-}
-
-.child2 {
-  height: auto;
-  width: auto;
-  overflow:hidden;
-  margin-left: 125px;
-  padding: 50px;
-  float: left;
-}
-
-.gmap_canvas {
-  background: none;
-  height: 600px;
-  width: 600px;
-  float: left;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -173,12 +151,39 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 /*--------------------Producten-----------------------*/
